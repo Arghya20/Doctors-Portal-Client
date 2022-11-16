@@ -5,8 +5,9 @@ const Footer = () => {
     <div
       style={{
         background: `url(${footerImg})`,
-        position: "cover",
+        backgroundSize: "cover",
       }}
+      className=" p-10  "
     >
       <footer className="footer p-10">
         <div>
